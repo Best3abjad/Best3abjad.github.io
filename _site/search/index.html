@@ -23,7 +23,7 @@
 
 <!-- Twitter integration -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="https://twitter.com/jhvanderschee">
+<meta name="twitter:site" content="https://twitter.com/">
 <meta name="twitter:title" content="Search" />
 
 <meta name="twitter:url" content="https://Best3abjad.github.io/search/" />
@@ -44,13 +44,16 @@
         <div id="menu">
             <ul>
                 <li ><a href="/getting-started/">Getting started</a></li>
-                <li ><a href="/Documents/">Document</a></li>
+                
+                 <li ><a href="/documen-plugin/">documen plugins</a></li>
                 <li ><a href="/blog/">Blog</a></li>
                 <li ><a href="/about/">About</a></li>
-                <li ><a href="/donate/">Donate</a></li>
-                <li><a href="/search/" aria-label="Search"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"/></svg></a></li>
-                <li><a href="/donate/cart/" id="cartlink" aria-label="Shopping cart"><span class="itemcount"></span><svg version="1.1" id="Shopping_cart" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve"><path d="M13,17c0,1.104,0.894,2,2,2c1.104,0,2-0.896,2-2c0-1.106-0.896-2-2-2C13.894,15,13,15.894,13,17z M3,17c0,1.104,0.895,2,2,2 c1.103,0,2-0.896,2-2c0-1.106-0.897-2-2-2C3.895,15,3,15.894,3,17z M6.547,12.172L17.615,9.01C17.826,8.949,18,8.721,18,8.5V3H4V1.4
-                C4,1.18,3.819,1,3.601,1H0.399C0.18,1,0,1.18,0,1.4L0,3h2l1.91,8.957L4,12.9v1.649c0,0.219,0.18,0.4,0.4,0.4H17.6 c0.22,0,0.4-0.182,0.4-0.4V13H6.752C5.602,13,5.578,12.449,6.547,12.172z" /></svg></a></li>
+                
+                
+               <li><a href="/search/" aria-label="Search"><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"/></svg></a></li>
+               
+           
+            
             </ul>
             <a href="http://penelitionlien.github.io/" class="btn" target="_blank" rel="noopener">Peneliti Online</a>
         </div>
@@ -148,7 +151,7 @@ var documents = [{
     "id": 1,
     "url": "https://Best3abjad.github.io/blog/",
     "title": "Blog",
-    "body": "About this blog: In our blog we keep you updated on stuff that is going on at this website. Do you have a great topic or are you missing something? Drop me a line through twitter @jhvanderschee.        {% for post in site. posts %}{{ post. date   date: “%Y/%m/%d” }} - {{ post. title }}{% endfor %}   "
+    "body": "my blog:       {% for post in site. posts %}{{ post. date   date: “%Y/%m/%d” }} - {{ post. title }}{% endfor %}   "
     }, {
     "id": 2,
     "url": "https://Best3abjad.github.io/donate/cart/",
@@ -171,49 +174,49 @@ var documents = [{
     "body": "masih edit "
     }, {
     "id": 6,
+    "url": "https://Best3abjad.github.io/documen-plugin/",
+    "title": "Jekyll without plugins",
+    "body": ""
+    }, {
+    "id": 7,
+    "url": "https://Best3abjad.github.io/documen-plugins/",
+    "title": "Dokumentasi",
+    "body": "Dokumentasi: "
+    }, {
+    "id": 8,
     "url": "https://Best3abjad.github.io/getting-started/",
     "title": "Getting started",
     "body": "Step 1. Create a basic website: A website typically consists of a few elements. The header with a menu, a sidebar, the content and the footer. Back in the days we used frames to put these components together. Nowadays we use includes. These includes require a programming language to work, like PHP. Using PHP however introduces a lot of vulnerabilities. What if we could prevent that by design? Well… you can with Jekyll. You used to create an ‘index. php’ file and do something like this: &lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;&lt;?php include('header. php'); ?&gt;content&lt;?php include('sidebar. php'); ?&gt;&lt;?php include('footer. php'); ?&gt;&lt;/body&gt;&lt;/html&gt;Now you create an ‘index. md’ file and you replace your PHP tags with Liquid tags, like so: {% raw %}------&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body&gt;{% include header. html %}content{% include sidebar. html %}{% include footer. html %}&lt;/body&gt;&lt;/html&gt;{% endraw %}You need to place html files you want to include in a root folder named: ‘_includes’. Get the code → Step 2. Preview your website: Opening the ‘index. md’ file in your browser does not work, so you need to have an enivronment that runs Jekyll. You can install Jekyll through command-line on your own machine. If this is your cup of tea, please go to jekyllrb. com. Otherwise, follow these simple instructions:  Create a free account at cloudcannon. com Create a website and name it Create an empty ‘_config. yml’ file in the root Upload your ‘default. html’ file and the ‘_layouts’ directory Upload the needed includes to the ‘_includes’ directory Upload your ‘index. md’ file to the root directory Visit your website on the URL CloudCannon created for youStep 3. Host your website: Oh, how I hate shared hosting accounts… untill Jekyll. Shared hosting accounts are cheap but unreliable. However, a Git based static site provides us with a back-up (actually the source code), which makes me feel a whole lot safer. CloudCannon exports the static version of your site to an FTP account on every update, enabling you to use an hosting environment of your choice. Just connect your FTP account through the CloudCannon options. So if your cheap hosting account goes down, the source code will still live on in Git and in your CloudCannon environment, enabling you to push the site to another cheap hosting account. Isn’t that reassuring? "
     }, {
-    "id": 7,
+    "id": 9,
     "url": "https://Best3abjad.github.io/",
     "title": "Home",
     "body": "Karena hidup itu sudah seperti mengendarai sepeda. Untuk tetap menjaga keseimbangan, kamu harus tetap bergerak. – Albert Einstein: Tidak peduli bagaimana kejam dan kerasnya kehidupan masa lalumu, kamu harus punya keyakinan untuk memulainya kembali. : Karena tidak akan ada kata bahagia jika tidak ada kesedihan. : Jika kamu merasa kehilangan seseorang tetapi bisa menemukan dirimu yang sebenarnya maka kamu sudah menang. : Perubahan memang memiliki awal yang berat, bisa kacau di pertengahan namun akan indah pada akhirnya. : :): "
     }, {
-    "id": 8,
+    "id": 10,
     "url": "https://Best3abjad.github.io/donate/",
     "title": "Donate",
     "body": "About this donation page: Although the primary function of this donation page is to illustrate how the webshop works, you can actually buy me one of the products below. If you think I saved you a huge amount of time… return the favor. If you do not have any money to spare, please share the love by posting something about this website on social media. I would like that just as much. Thank you, you are the best! "
     }, {
-    "id": 9,
+    "id": 11,
     "url": "https://Best3abjad.github.io/donate/paylink/",
     "title": "Proceed to payment",
     "body": "You will be redirected to a secure checkout process on useplink. com, provided by Mollies Paylink service, called Plink… "
     }, {
-    "id": 10,
+    "id": 12,
     "url": "https://Best3abjad.github.io/privacy/",
     "title": "Privacy Policy",
     "body": "Masih edit: "
     }, {
-    "id": 11,
+    "id": 13,
     "url": "https://Best3abjad.github.io/search/",
     "title": "Search",
     "body": "Search: "
     }, {
-    "id": 12,
+    "id": 14,
     "url": "https://Best3abjad.github.io/terms/",
     "title": "Terms and conditions",
     "body": "Making a donation: The following terms and conditions apply.    The Donation ServiceOnce you confirm to us through the Website that you wish to proceed with your donation your transaction will be processed through our payment services provider, Mollie. By confirming that you wish to proceed with your donation you authorise Mollie to request funds from your credit or debit card provider.     Unauthorised Card UseIf you become aware of fraudulent use of your card, or if it is lost or stolen, you must notify your card provider.     Information From YouBefore we can process a donation you must provide us with (i) your name, address and email address; and (ii) details of the credit or debit card that you wish to use to fund the donation. We will use this information to process your donation. It is your responsibility to ensure you have provided us with the correct information. When you submit your payment details, these details will be transferred to our payment provider, Mollie, and your payment data will be collected and processed securely by them. You should make sure that you are aware of Mollie’s terms and conditions, which are different from our own, to ensure that you are comfortable with how they will process your personal data before you make a donation. We won’t share your personal details with any other third party other than is set out in our Privacy Policy. Our Privacy Policy forms part of these Terms and Conditions and by agreeing to these Terms and Conditions you are also agreeing to the way we use and protect your personal information in line with our Privacy Policy.     Refund PolicyIf you make an error in your donation please contact us either by email at jhvanderschee@gmail. com, by phone at +31618518928 within 14 days and a full refund will be made to you.     GeneralWe reserve the right to amend these Terms and Conditions at any time.  "
-    }, {
-    "id": 13,
-    "url": "https://Best3abjad.github.io/without-plugin/",
-    "title": "Jekyll without plugins",
-    "body": ""
-    }, {
-    "id": 14,
-    "url": "https://Best3abjad.github.io/without-plugins/",
-    "title": "Jekyll without plugins",
-    "body": "Plugin-free solutions: Jekyll plugins can alter the way the HTML is generated, but most functionalities do not require that. Below you will find a list of add-on functionalities for Jekyll and their plugin-free solutions. They are all easy to install and, most important, very easy to adjust to your needs. Let’s give WordPress users a run for their money! "
     }, ];
 
 var idx = lunr(function () {
@@ -533,9 +536,9 @@ external_new_window();
 
 <div id="follow-buttons">
     <div class="facebook" onclick="window.open('https://www.facebook.com/Peneliti-Online-130856032222822');"><div><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z"/></svg></div>Follow</div>
-    <div class="twitter" onclick="window.open('https://twitter.com/jhvanderschee');"><div><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>Follow</div>
-    <div class="linkedin" onclick="window.open('https://www.linkedin.com/in/joost-van-der-schee-4b26682');"><div><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>Follow</div>
-    <div class="gplus" onclick="window.open('https://plus.google.com/u/0/+JoostvanderSchee');"><div><svg viewBox="0 0 2304 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1437 913q0 208-87 370.5t-248 254-369 91.5q-149 0-285-58t-234-156-156-234-58-285 58-285 156-234 234-156 285-58q286 0 491 192l-199 191q-117-113-292-113-123 0-227.5 62t-165.5 168.5-61 232.5 61 232.5 165.5 168.5 227.5 62q83 0 152.5-23t114.5-57.5 78.5-78.5 49-83 21.5-74h-416v-252h692q12 63 12 122zm867-122v210h-209v209h-210v-209h-209v-210h209v-209h210v209h209z"/></svg></div>Follow</div>
+    <div class="twitter" onclick="window.open('https://twitter.com/');"><div><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1684 408q-67 98-162 167 1 14 1 42 0 130-38 259.5t-115.5 248.5-184.5 210.5-258 146-323 54.5q-271 0-496-145 35 4 78 4 225 0 401-138-105-2-188-64.5t-114-159.5q33 5 61 5 43 0 85-11-112-23-185.5-111.5t-73.5-205.5v-4q68 38 146 41-66-44-105-115t-39-154q0-88 44-163 121 149 294.5 238.5t371.5 99.5q-8-38-8-74 0-134 94.5-228.5t228.5-94.5q140 0 236 102 109-21 205-78-37 115-142 178 93-10 186-50z"/></svg></div>Follow</div>
+    <div class="linkedin" onclick="window.open('https://www.linkedin.com/in/');"><div><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"/></svg></div>Follow</div>
+    <div class="gplus" onclick="window.open('https://plus.google.com/u/0/');"><div><svg viewBox="0 0 2304 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1437 913q0 208-87 370.5t-248 254-369 91.5q-149 0-285-58t-234-156-156-234-58-285 58-285 156-234 234-156 285-58q286 0 491 192l-199 191q-117-113-292-113-123 0-227.5 62t-165.5 168.5-61 232.5 61 232.5 165.5 168.5 227.5 62q83 0 152.5-23t114.5-57.5 78.5-78.5 49-83 21.5-74h-416v-252h692q12 63 12 122zm867-122v210h-209v209h-210v-209h-209v-210h209v-209h210v209h209z"/></svg></div>Follow</div>
     
     
 </div>

@@ -12,10 +12,13 @@ collections:
   uploads:
     title: Uploads
     output: false
-  without-plugin:
-    title: Without Plugin
+  
+  
+  documen-plugin:
+    title: Documen Plugin
     output: true
-    permalink: "/without-plugin/:path/"
+    permalink: "/documen-plugin/:path/"  
+  
 defaults:
 - scope:
     path: ''
@@ -27,11 +30,15 @@ defaults:
     type: posts
   values:
     layout: post
+
+ 
 - scope:
     path: ''
-    type: without-plugin
+    type: documen-plugin
   values:
-    layout: without-plugin-item
+    layout: documen-plugin-item    
+
+    
 - scope:
     path: ''
     type: products
@@ -42,9 +49,9 @@ description: Jekyll Codex wants to make it easier for front-end developers to ch
 url: https://Best3abjad.github.io
 permalink: "/blog/:title/"
 facebook_url: https://www.facebook.com/Peneliti-Online-130856032222822
-twitter_url: https://twitter.com/jhvanderschee
-linkedin_url: https://www.linkedin.com/in/joost-van-der-schee-4b26682
-googleplus_url: https://plus.google.com/u/0/+JoostvanderSchee
+twitter_url: https://twitter.com/
+linkedin_url: https://www.linkedin.com/in/
+googleplus_url: https://plus.google.com/u/0/
 pinterest_url: 
 instagram_url: 
 highlighter: rouge

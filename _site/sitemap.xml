@@ -50,6 +50,22 @@
   
   
   
+      <url>
+        <loc>https://Best3abjad.github.io/documen-plugin/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  
+  
+  
+      <url>
+        <loc>https://Best3abjad.github.io/documen-plugins/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  
+  
+  
   
   
       <url>
@@ -104,22 +120,6 @@
   
       <url>
         <loc>https://Best3abjad.github.io/terms/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-  
-  
-      <url>
-        <loc>https://Best3abjad.github.io/without-plugin/</loc>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-       </url>
-  
-  
-  
-      <url>
-        <loc>https://Best3abjad.github.io/without-plugins/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
