@@ -1,0 +1,67 @@
+---
+title: Best3abjad
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  products:
+    title: Products
+    output: true
+    permalink: "/donate/:path/"
+  uploads:
+    title: Uploads
+    output: false
+  without-plugin:
+    title: Without Plugin
+    output: true
+    permalink: "/without-plugin/:path/"
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: without-plugin
+  values:
+    layout: without-plugin-item
+- scope:
+    path: ''
+    type: products
+  values:
+    layout: product
+description: Jekyll Codex wants to make it easier for front-end developers to choose
+  Jekyll in their next project.
+url: https://Best3abjad.github.io
+permalink: "/blog/:title/"
+facebook_url: https://www.facebook.com/Peneliti-Online-130856032222822
+twitter_url: https://twitter.com/jhvanderschee
+linkedin_url: https://www.linkedin.com/in/joost-van-der-schee-4b26682
+googleplus_url: https://plus.google.com/u/0/+JoostvanderSchee
+pinterest_url: 
+instagram_url: 
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+input_types:
+- text
+- textarea
+- email
+- date
+- checkbox
+- radio
+- number
+- submit
+form_engines:
+- cloudcannon
+- formspree
+- formbucket
