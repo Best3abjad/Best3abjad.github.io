@@ -44,8 +44,8 @@ defaults:
     type: products
   values:
     layout: product
-description: Jekyll Codex wants to make it easier for front-end developers to choose
-  Jekyll in their next project.
+description: Membahas seputar tehnik blogging untuk meraih artikel menjadi page one
+  
 url: https://Best3abjad.github.io
 permalink: "/blog/:title/"
 facebook_url: https://www.facebook.com/Peneliti-Online-130856032222822

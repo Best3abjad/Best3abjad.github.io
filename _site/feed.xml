@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Best3abjad</title>
-    <description>Jekyll Codex wants to make it easier for front-end developers to choose Jekyll in their next project.</description>
+    <description>Membahas seputar tehnik blogging untuk meraih artikel menjadi page one</description>
     <link>https://Best3abjad.github.io/</link>
     <atom:link href="https://Best3abjad.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Feb 2021 17:58:13 +0000</pubDate>
-    <lastBuildDate>Fri, 12 Feb 2021 17:58:13 +0000</lastBuildDate>
+    <pubDate>Sat, 13 Feb 2021 09:52:13 +0000</pubDate>
+    <lastBuildDate>Sat, 13 Feb 2021 09:52:13 +0000</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
   </channel>
