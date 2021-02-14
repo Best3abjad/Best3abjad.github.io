@@ -34,4 +34,8 @@ Judul dan sub judul
 
 Keyword utama "Kucing Lucu"
 
-Sub judul >> bebas yang penting saat di panggil dia muncul di baris halaman satu
+Sub judul >> bebas yang penting saat di panggil dia muncul di baris halaman satu. nah biasanya kalau baru terindex dari judul saja sudah bisa rangking tapi tidak lama masanya . dan yang lama ya power dari sub judul
+
+ simak video di bawah ini
+
+<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fpost.komik.54%2Fvideos%2F210174597498010%2F&show_text=false&width=560" width="100%" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
