@@ -11,9 +11,27 @@ Dan juga saat sudah menulis 800 word misalnya. semua kata di dalam postingan itu
 
 Result by teknik 
 
+Contoh pertama
+
 * **"B4c4 komik Magic Emperor bahasa indonesia"**
 * **"B4c4 komik Magic Emperor b4h4s4 indonesia"**
 * **"B4c4 komik Magic Emperor b4h4s4 1ndon3s14"**
 * **"Baca kom1k Magic emperor b4hasa indonesia"**
 
 Untuk kunci utama jangan di ganti huruf abjad nya karena itu penting dan memancing data tayang di google searc console serta posisi rata rata kita berada di halaman mesin pencari. dan jika sudah di terapkan kita tinggal menunggu postingan itu terindex lalu cek apakah work nya atau tidak dan pakah memiliki persaingan atau tidak .
+
+Jika sudah di terapkan tapi pas di cek posisi tak ada di halaman satu ada beberapa gaktor penyebab nya :
+
+1. keyword utama memiliki persaingan yang sangat ketat 
+2. power masih lemah
+3. Tidak ada user mencari sesuai tehnik yang digunakan
+
+Maka tambah power nya di dalam sub judul untuk memancing keyword utama masuk halaman 1 . dan ini sudah pastinya nol pencarian alias nol traffict akan tetapi jika masuk saja halaman perama karena kita mempunyai kalimat yan di panggil muncul di daftar mesin pencari sudah pasti nya kita mendapat nilai plus dan google 
+
+Contoh kedua :
+
+Judul dan sub judul 
+
+Keyword utama "Kucing Lucu"
+
+Sub judul >> bebas yang penting saat di panggil dia muncul di baris halaman satu
