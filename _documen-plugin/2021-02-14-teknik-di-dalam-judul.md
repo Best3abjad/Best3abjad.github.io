@@ -16,4 +16,4 @@ Result by teknik
 * **"B4c4 komik Magic Emperor b4h4s4 1ndon3s14"**
 * **"Baca kom1k Magic emperor b4hasa indonesia"**
 
-Untuk kunci utama jangan di ganti huruf abjad nya karena itu penting dan memancing data tayang di google searc console serta posisi rata rata kita berada di halaman mesin pencari
+Untuk kunci utama jangan di ganti huruf abjad nya karena itu penting dan memancing data tayang di google searc console serta posisi rata rata kita berada di halaman mesin pencari. dan jika sudah di terapkan kita tinggal menunggu postingan itu terindex lalu cek apakah work nya atau tidak dan pakah memiliki persaingan atau tidak .
